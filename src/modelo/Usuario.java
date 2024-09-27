@@ -51,11 +51,12 @@ public boolean equals(Usuario usuario) {
 }
 @Override
 public String toString() {
-	return "Usuario [id=" + id + ", dni=" + dni + ", nombre=" + nombre + ", apellido=" + apellido + ", tieneDescuento="
-			+ tieneDescuento + "]";
+	return "Usuario id=" + id + " dni=" + dni + "nombre=" + nombre + "apellido=" + apellido + "tieneDescuento="
+			+ tieneDescuento + "";
 }
 
 
-
+	
+	
 
 }

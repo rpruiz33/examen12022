@@ -48,8 +48,8 @@ public Viaje(Tarjeta tarjeta, String linea, String medio, LocalDateTime fechaHor
 }
 @Override
 public String toString() {
-	return "Viaje [tarjeta=" + tarjeta + ", linea=" + linea + ", medio=" + medio + ", fechaHoraViaje=" + fechaHoraViaje
-			+ ", precio=" + precio + "]";
+	return " Viaje "+ tarjeta.getCodigo() + " linea=linea" + linea + ", medio=medio" + medio + " fechaHoraViaje=" + fechaHoraViaje
+			+ " precio=" + precio + "\n";
 }
 
 public boolean equals(Viaje viaje) {

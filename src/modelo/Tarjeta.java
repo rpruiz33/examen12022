@@ -28,6 +28,7 @@ public boolean equals(Tarjeta tarjeta) {
 }
 @Override
 public String toString() {
-	return "Tarjeta [codigo=" + codigo + ", usuario=" + usuario + "]";
+	return "Tarjeta [codigo=" + codigo + " dni" + usuario.getDni()+ "]\n";
 }
+
 }
